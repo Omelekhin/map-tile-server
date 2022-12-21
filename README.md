@@ -1,3 +1,3 @@
 # Map tile server
 
-Proxying OSM map tiles
+Tile-server with Ekaterinburg maps

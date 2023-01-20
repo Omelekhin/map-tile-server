@@ -7,7 +7,6 @@
       "url": "mbtiles://{v3}"
     }
   },
-  "sprite": "{styleJsonFolder}/sprite",
   "glyphs": "{fontstack}/{range}.pbf",
   "layers": [
     {

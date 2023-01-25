@@ -6,5 +6,6 @@ services:
     volumes:
       - "./tileserver-gl:/data"
     command: ["-p", "80", "-c", "/data/config.json"]
+    restart: unless-stopped
     ports:
       - "8080:80"

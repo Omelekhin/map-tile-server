@@ -1,7 +1,7 @@
 {
   "options": {
     "paths": {
-      "root": "/usr/src/app/node_modules/tileserver-gl-styles",
+      "root": ".",
       "fonts": "fonts",
       "styles": "styles",
       "mbtiles": "/data"
@@ -11,6 +11,18 @@
   "styles": {
     "basic": {
       "style": "/data/styles/basic.json",
+      "tilejson": {
+        "bounds": [59.5624, 61.3889, 57.131, 56.4435]
+      }
+    },
+    "basic-black": {
+      "style": "/data/styles/basic-black.json",
+      "tilejson": {
+        "bounds": [59.5624, 61.3889, 57.131, 56.4435]
+      }
+    },
+    "basic-white": {
+      "style": "/data/styles/basic-white.json",
       "tilejson": {
         "bounds": [59.5624, 61.3889, 57.131, 56.4435]
       }

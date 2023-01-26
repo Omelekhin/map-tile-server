@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  tileserver:
+    image: maptiler/tileserver-gl:v3.0.0
+    volumes:
+      - "./tileserver-gl:/data"
+    command: ["-p", "80", "-c", "/data/config.json"]
+    restart: unless-stopped
+    ports:
+      - "4321:80"

@@ -1,0 +1,36 @@
+{
+  "options": {
+    "paths": {
+      "root": ".",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": "/data"
+    },
+    "serveAllFonts": true
+  },
+  "styles": {
+    "basic": {
+      "style": "/data/styles/basic.json",
+      "tilejson": {
+        "bounds": [59.5624, 61.3889, 57.131, 56.4435]
+      }
+    },
+    "basic-black": {
+      "style": "/data/styles/basic-black.json",
+      "tilejson": {
+        "bounds": [59.5624, 61.3889, 57.131, 56.4435]
+      }
+    },
+    "basic-white": {
+      "style": "/data/styles/basic-white.json",
+      "tilejson": {
+        "bounds": [59.5624, 61.3889, 57.131, 56.4435]
+      }
+    }
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "ural.mbtiles"
+    }
+  }
+}

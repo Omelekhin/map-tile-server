@@ -16,7 +16,7 @@ jobs:
       uses: appleboy/ssh-action@v0.1.6
       with:
         host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
         password: ${{ secrets.PASSWORD }}
         script: |
           cd /usr/local/map-tile-server

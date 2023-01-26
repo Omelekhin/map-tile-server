@@ -680,7 +680,7 @@
       "layout": {
         "icon-size": 1,
         "text-anchor": "top",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:latin}\n{name:latin} {name:nonlatin}",
         "text-font": ["Iset Sans Regular"],
         "text-max-width": 8,
         "text-offset": [0, 0.5],
@@ -705,7 +705,7 @@
       "layout": {
         "icon-size": 1,
         "text-anchor": "top",
-        "text-field": "{name:nonlatin}",
+        "text-field": "{name:latin} {name:nonlatin}",
         "text-font": ["Iset Sans Regular"],
         "text-max-width": 8,
         "text-offset": [0, 0.5],
@@ -729,7 +729,7 @@
       "filter": ["==", "$type", "LineString"],
       "layout": {
         "symbol-placement": "line",
-        "text-field": "{name:nonlatin}",
+        "text-field": "{name:latin} {name:nonlatin}",
         "text-font": ["Iset Sans Regular"],
         "text-letter-spacing": 0.1,
         "text-rotation-alignment": "map",
@@ -757,7 +757,7 @@
       ],
       "layout": {
         "text-anchor": "center",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:latin}\n{name:latin} {name:nonlatin}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 6,
         "text-size": {"stops": [[6, 10], [12, 14]]},
@@ -778,7 +778,7 @@
       "maxzoom": 12,
       "filter": ["all", ["==", "$type", "Point"], ["==", "class", "city"]],
       "layout": {
-        "text-field": "{name:nonlatin}",
+        "text-field": "{name:latin} {name:nonlatin}",
         "text-font": ["Iset Sans Regular"],
         "text-max-width": 10,
         "text-size": {"stops": [[3, 12], [8, 16]]},
